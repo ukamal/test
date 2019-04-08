@@ -1,0 +1,251 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*hero area*/
+	.hero_main_content h1{
+		font-size: 4.6875rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*hero area*/
+	.hero_area{
+		min-height: 30rem;
+	}
+	.hero_main_content p{
+		font-size: 1.875rem;
+		line-height: 1.5rem;
+	}
+	.hero_main_content h1{
+		font-size: 3.5rem;
+		line-height: 4rem;
+	}
+
+	/*code shop area*/
+	.col-md-12 .code_shop_box{
+		margin-top: 3rem;
+	}
+
+	/*blog area*/
+	.Search_area input[type='text']{
+		width: 75%;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	.pt-7:not(.bg_canvus),
+	.pb-7:not(.bg_canvus){
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.section_heading{
+		margin-bottom: 3rem;
+	}
+	.section_heading h1{
+		font-size: 2rem;
+	}
+	.section_heading p{
+		font-size: 0.875rem;
+		line-height: 1.1875rem;
+		letter-spacing: 0.125rem;
+	}
+
+	/*hero area*/
+	.hero_area{
+		min-height: 25rem;
+	}
+	.hero_js_effects .hovereffect{
+		display: none;
+	}
+	.hero_main_content p{
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.hero_main_content h1{
+		font-size: 3rem;
+		line-height: 3rem;	
+	}
+	.large-link-effect {
+		margin-top: 0.625rem;
+	}
+	
+	/*about area*/
+	.about_body ul.list-group{
+		display: block;
+	}
+	.about_body ul.list-group li{
+		float: left;
+		width: 30%;
+	}
+	.about_body ul.list-group li a.active::after{
+		left: 50%;
+		margin-left: -0.4375rem;
+		top: 100%;
+		margin-top: -1.25rem;
+		transform: rotate(90deg);
+		border-width: 1.5625rem 0 1.5625rem 0.9375rem;
+		border-color: transparent transparent transparent #ff503a;
+	}
+
+	/*code shop area*/
+	.col-sm-12 .code_shop_box{
+		margin-bottom: 3rem;
+	}
+	
+	/*blog area*/
+	.blog_area .single_blog{
+		flex: 35%;
+		margin-bottom: 1.25rem;
+	}
+	.display_none{
+		display: none;
+	}
+	
+	/*hire area*/
+	.hire_area h1{
+		font-size: 5rem;
+	}
+
+	/*contact area*/
+	.contact_area .col-sm-12{
+		margin-bottom: 1.875rem;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	.pt-7:not(.bg_canvus),
+	.pb-7:not(.bg_canvus){
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.section_heading{
+		margin-bottom: 3rem;
+	}
+	.section_heading h1{
+		font-size: 2rem;
+	}
+	.section_heading p{
+		font-size: 0.875rem;
+		line-height: 1.1875rem;
+		letter-spacing: 0.125rem;
+	}
+
+	/*header area*/
+	.header_area .navbar-brand {
+		width: 80%;
+	}
+	.header_area .navbar-brand img{
+		width: 100%;
+		height: auto;
+	}
+
+	/*hero area*/
+	.hero_area{
+		min-height: 30rem;
+	}
+	.hero_js_effects .hovereffect{
+		display: none;
+	}
+	.hero_main_content p{
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.hero_main_content h1{
+		font-size: 2.5rem;
+		line-height: 2.5rem;	
+	}
+	.large-link-effect {
+		margin-top: 0.625rem;
+	}
+	
+	/*about area*/
+	.about_body ul.list-group{
+		display: block;
+	}
+	.about_body ul.list-group li{
+		float: left;
+		width: 30%;
+	}
+	.about_body ul.list-group li a h5{
+		display: none;
+	}
+	.about_body ul.list-group li a.active::after{
+		left: 50%;
+		margin-left: -0.4375rem;
+		top: 100%;
+		margin-top: -1.25rem;
+		transform: rotate(90deg);
+		border-width: 1.5675rem 0 1.5675rem 0.9375rem;
+		border-color: transparent transparent transparent #ff503a;
+	}
+	.Our_team img{
+		margin-bottom: 1rem;
+	}
+	.about_member{
+		margin: 0;
+		text-align: justify;
+	}
+
+	/*code shop area*/
+	.col-sm-12 .code_shop_box{
+		margin-bottom: 3rem;
+	}
+	.outsource{
+		margin-bottom: 1rem;
+	}
+	
+	/*hire area*/
+	.hire_area h1{
+		font-size: 2.5rem!important;
+		line-height: 2.5rem;	
+	}
+
+	/*blog area*/
+	.blog_area .single_blog{
+		flex: 35%;
+		margin-bottom: 1.25rem;
+	}
+	.display_none{
+		display: none;
+	}
+	
+	/*hire area*/
+	.hire_area h1{
+		font-size: 5rem;
+	}
+
+	/*contact area*/
+	.contact_area .col-sm-12{
+		margin-bottom: 1.875rem;
+	}
+}
+
+@media (max-width: 991px) {
+	/*header area*/
+	.main_menu{
+		right:-20rem;
+		padding: 1.25rem 1.875rem;
+		display: block;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		max-width: 20rem;
+		background: #0c6e8f;
+		width: 100%;
+		transition: .3s;
+		overflow: scroll;
+	}
+	.main_menu.show_main_menu{
+		right: 0;
+	}
+	.close_main_menu{
+		display: block;
+		color: #fff;
+		width: 100%;
+	}
+}
